@@ -2,4 +2,3 @@ bin/
 *.tmp
 *.~
 *.swp
-src/*.java
