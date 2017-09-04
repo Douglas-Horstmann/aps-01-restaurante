@@ -1,9 +1,9 @@
 
 public class Prato {
 	
-	private String nome;
-	private double preco;
-	private String descricao;
+	private String nome = "";
+	private double preco = 0.0;
+	private String descricao = "";
 	
 	public Prato(String nome, double preco){
 		this.SetNome(nome);
