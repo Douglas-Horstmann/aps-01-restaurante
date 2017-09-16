@@ -9,9 +9,9 @@ public class Restaurante {
 		{
 			if(!this.GetPratos()[i].GetNome().isEmpty())
 			{
-				System.out.println("Nome do prato: " + this.GetPratos()[i].GetNome());
-				System.out.println("Preço do prato: " + this.GetPratos()[i].GetPreco());
-				System.out.println("Descrição do prato: " + (this.GetPratos()[i].GetDescricao().isEmpty() ? "Sem descrição" : this.GetPratos()[i].GetDescricao()));
+				System.out.print("[Nome do prato: " + this.GetPratos()[i].GetNome() + "]");
+				System.out.println("[Preço do prato: " + this.GetPratos()[i].GetPreco() + "]");
+				System.out.println("[Descrição do prato: " + (this.GetPratos()[i].GetDescricao().isEmpty() ? "Sem descrição" : this.GetPratos()[i].GetDescricao()) + "]");
 			}			
 		}
 	}
